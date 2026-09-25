@@ -54,11 +54,15 @@ const Contact = () => {
             </div>
 
             <div className="mt-6 ">
-               <label htmlFor="" className="block mb-2">your message</label>
-               <textarea className="w-full h-40 px-6 py-6 outline-none border border-black rounded"/>
+              <label htmlFor="" className="block mb-2">
+                your message
+              </label>
+              <textarea className="w-full h-40 px-6 py-6 outline-none border border-black rounded" />
             </div>
 
-            <button className="bg-yellow-500 mt-6 px-6 py-2 rounded-full font-semibold cursor-pointer">submit</button>
+            <button className="bg-yellow-500 mt-6 px-6 py-2 rounded-full font-semibold cursor-pointer">
+              submit
+            </button>
           </form>
         </div>
       </div>

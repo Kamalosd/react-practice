@@ -23,32 +23,36 @@ const Navbar = () => {
 
         <div className="md:hidden">
           <button className="px-6 py-2 bg-yellow-300 text-black font-semibold rounded-full cursor-pointer flex items-center gap-2">
-            contact me 
+            contact me
             <FaLongArrowAltRight />
           </button>
         </div>
 
-        <div >
-          {
-            showMenu?<FaTimes onClick={() => setShowMenu(!showMenu)} />: <FaBars onClick={()=>setShowMenu(!showMenu)}/>
-          }
-         
+        <div>
+          {showMenu ? (
+            <FaTimes onClick={() => setShowMenu(!showMenu)} />
+          ) : (
+            <FaBars onClick={() => setShowMenu(!showMenu)} />
+          )}
         </div>
       </div>
-      
 
-{
-  showMenu && (
-<div className="md:hidden flex flex-col items-center justify-center space-y-6 w-64 h-screen  bg-yellow-100">
-           <a onClick={()=>setShowMenu(!showMenu)}  href="#home">home </a>
-          <a onClick={()=>setShowMenu(!showMenu)} href="#services"> services</a>
-          <a onClick={()=>setShowMenu(!showMenu)} href="#work"> our work</a>
-          <a  href="#contact">contact us</a>
-
-</div>
-  )
-}
-
+      {showMenu && (
+        <div className="md:hidden flex flex-col items-center justify-center space-y-6 w-64 h-screen  bg-yellow-100">
+          <a onClick={() => setShowMenu(!showMenu)} href="#home">
+            home{" "}
+          </a>
+          <a onClick={() => setShowMenu(!showMenu)} href="#services">
+            {" "}
+            services
+          </a>
+          <a onClick={() => setShowMenu(!showMenu)} href="#work">
+            {" "}
+            our work
+          </a>
+          <a href="#contact">contact us</a>
+        </div>
+      )}
     </div>
   );
 };
