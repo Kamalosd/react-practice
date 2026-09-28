@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-20 bg-gray-500 flex justify-between items-center px-9">
       <div>
-        <h1 className="font-bold">logo</h1>
+        <h1 className="font-bold text-yellow-400">logo</h1>
       </div>
       <div>
         <ul className="flex gap-6 font-semibold ">
@@ -20,7 +20,7 @@ const Navbar = () => {
         </ul>
       </div>
       <button
-        className="py-1 px-4 bg-orange-500  cursor-pointer text-white"
+        className="py-1 px-4 bg-yellow-500  cursor-pointer text-white"
         onClick={handleLogout}
       >
         Logout
