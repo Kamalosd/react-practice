@@ -22,7 +22,7 @@ const Hero = () => {
         <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6">
           <span>we help brands grow with</span>
           <br />
-          <span className="text-yellow-300">performance</span>
+          <span className="text-yellow-400">performance</span>
           <span>marketing</span>
         </h1>
 
