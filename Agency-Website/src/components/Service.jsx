@@ -34,10 +34,10 @@ const Service = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="rounded-xl p-12 border border-amber-400 flex flex-col md:flex-row items-center gap-6 hover:scale-105 transition duration-150 cursor-pointer"
+              className="rounded-xl p-12 border border-amber-300 flex flex-col md:flex-row items-center gap-6 hover:scale-105 transition duration-150 cursor-pointer"
             >
-              <div className=" w-15 h-15 border border-y-amber-500 rounded-full flex items-center justify-center">
-                <FaPen className="w-7 h-7 text-yellow-500 " />
+              <div className=" w-15 h-15 border border-y-amber-300 rounded-full flex items-center justify-center">
+                <FaPen className="w-7 h-7 text-yellow-300 " />
               </div>
               <div className="text-center ">
                 <h2 className="text-2xl font-bold mb-3">{service.title}</h2>
