@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="w-full py-40">
       <div className="container mx-auto px-6 ">
-        <div className="flex items-center mx-auto gap-4 rounded-full pl-2 py-2 w-full text-xs md:text-base md:w-[25%] mb-12 border border-y-amber-600">
+        <div className="flex items-center mx-auto gap-4 rounded-full pl-2 py-2 w-full text-xs md:text-base md:w-[25%] mb-12 border border-y-amber-300">
           <div className="flex items-center -space-x-3">
             <img className="w-8 h-8 rounded-full " src={pic2} />
 
