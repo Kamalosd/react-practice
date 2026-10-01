@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="py-20">
       <div className="mx-auto px-6 ">
-        <div className="text-center mb-16">
+        <div className="text-center mb-14">
           <h1 className="text-4xl mb-6 md:text-5xl">Reach out to us</h1>
           <p className="max-w-xl mx-auto">
             Have a project in mind or need help bringing your ideas to life?
