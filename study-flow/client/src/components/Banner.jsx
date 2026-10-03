@@ -2,7 +2,7 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div className='container mx-auto text-center py-6 bg-black space-y-4'>
+    <div className='container mx-auto text-center py-6 bg-gray space-y-4'>
       <span className="badge">Badge</span>
       <h1 className='text-white max-w-2xl mx-auto'>Turn big goals into daily task </h1>
       <p className='text-white text-sm'>set a goal </p>
